@@ -1,0 +1,11 @@
+img {
+  width: 275px;
+  height: 75%;
+}
+ul {
+  margin: 30px;
+  list-style: none;
+}
+li {
+  display: inline-flex;
+}
