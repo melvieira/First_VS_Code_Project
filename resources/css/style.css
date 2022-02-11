@@ -9,15 +9,14 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-body {
-  background-color: rgb(233, 249, 239);
-}
+
 ul {
   margin: 30px;
   list-style: none;
 }
 li {
   display: inline-flex;
+  font-size: 25px;
 }
 
 .h1 {
@@ -35,6 +34,9 @@ h2 {
 }
 h3 {
   text-align: center;
+}
+h4 {
+  margin: 20px;
 }
 img {
   border-radius: 5%;
@@ -57,7 +59,8 @@ img {
 
 .container {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
-.jumbotron {
+.banner {
   height: 500px;
 }
